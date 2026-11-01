@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Orchestration — Jin Young Oh</title>
+  <meta name="description" content="A local Python and React prototype exploring durable task state, isolated worktrees and review gates for software agents.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://joh748.github.io/projects/orchestration/">
+  <meta property="og:title" content="AI Orchestration — Jin Young Oh">
+  <meta property="og:description" content="A local Python and React prototype exploring durable task state, isolated worktrees and review gates for software agents.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://joh748.github.io/projects/orchestration/">
+  <meta property="og:image" content="https://joh748.github.io/assets/cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jin Young Oh — Software Engineering">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="name" href="/">Jin Young Oh</a>
+    <nav aria-label="Main navigation"><a href="/#work">Work</a><a href="/#about">About</a><a href="/#contact">Contact</a></nav>
+  </div></header>
+  <main id="main" tabindex="-1" class="case-page wrap">
+    <header class="case-hero"><a class="back-link" href="/#work"><span aria-hidden="true">← </span>All projects</a>
+      <h1>AI Orchestration</h1><p class="case-summary">A local control room for software-agent work.</p>
+      <dl class="project-meta"><div><dt>Role</dt><dd>Personal project · AI-assisted development</dd></div><div><dt>Status</dt><dd>Local Windows prototype</dd></div><div><dt>Technology</dt><dd>Python, FastAPI, LangGraph, SQLite, React</dd></div></dl>
+    </header>
+    <div class="case-body">
+      <section class="case-section" aria-labelledby="section-0"><h2 id="section-0">Overview</h2><div class="case-copy"><p>AI Orchestration is a local Windows prototype for coordinating software work across repositories. It follows tasks from a proposed plan through implementation, checks, review and delivery evidence.</p></div></section>
+      <section class="case-section" aria-labelledby="section-1"><h2 id="section-1">My contribution</h2><div class="case-copy"><p>I’m developing this personal project with AI coding assistants to explore how agent work can be inspected and recovered. The focus is task state, isolated worktrees, review sessions and explicit approval gates.</p></div></section>
+      <section class="case-section" aria-labelledby="section-2"><h2 id="section-2">Engineering decisions</h2><div class="case-copy"><ul><li><strong>Keep durable records.</strong> SQLite stores tasks, jobs and evidence. LangGraph checkpoints support workflow recovery.</li><li><strong>Separate roles from execution.</strong> Planning, engineering, QA, review and release are logical responsibilities. An enforced execution limit makes the current workflow sequential.</li><li><strong>Tie approval to the work.</strong> The controller associates approvals with a source revision and preserves uncertain external operations for inspection. Reviews use fresh sessions.</li></ul></div></section>
+      <section class="case-section" aria-labelledby="section-3"><h2 id="section-3">Evidence and status</h2><div class="case-copy"><p>This is an implemented local prototype, with no public hosted demo. Deployment support depends on each repository’s configured project contract.</p><p>Orca and <a class="text-link" href="https://github.com/Chorus-AIDLC/Chorus" target="_blank" rel="noopener noreferrer">Chorus<span aria-hidden="true"> ↗</span></a> are separate tools I use in development. They are distinct from this project.</p></div></section>
+    </div>
+    <div class="case-end"><a class="back-link" href="/#work"><span aria-hidden="true">← </span>Back to all projects</a><a class="text-link" href="https://www.linkedin.com/in/jin-young-oh-6776962b9/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn<span aria-hidden="true"> ↗</span></a></div>
+  </main>
+  <footer class="wrap site-footer"><p>© 2026 Jin Young Oh</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

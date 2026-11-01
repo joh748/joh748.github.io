@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="80" y="252" font-size="96" font-weight="600" letter-spacing="-5" fill="#000">Jin Young Oh</text>
+    <text x="84" y="328" font-size="40" letter-spacing="-1" fill="#595959">Software Engineering</text>
+    <path d="M84 445H1116" stroke="#d2d2d7"/>
+    <text x="84" y="492" font-size="24" fill="#595959">Full-stack applications. Real-time systems. Developer tools.</text>
+    <text x="84" y="556" font-size="20" fill="#000">joh748.github.io</text>
+    <text x="1116" y="556" text-anchor="end" font-size="20" fill="#595959">Auckland, New Zealand</text>
+  </g>
+</svg>
