@@ -2,7 +2,7 @@
 
 Static personal portfolio for https://joh748.github.io/.
 
-The site presents MinglePlay, ForkFolio and the local AI Orchestration project, with direct links to the existing public demos. Source repositories for those projects remain private. Orca and Chorus are credited as external workflow tools.
+The site presents MinglePlay, ForkFolio, the FinTrack university team project and the local AI Orchestration project. MinglePlay and ForkFolio link to public demos; FinTrack links to public team source and attributed contributions. The personal application source repositories remain private. Orca and Chorus are credited as external workflow tools.
 
 ## Edit
 
